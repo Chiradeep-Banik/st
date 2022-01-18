@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
+static char *font = "JetBrains Mono:pixelsize=12:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -91,34 +91,34 @@ char *termname = "st-256color";
  *
  *	stty tabs
  */
-unsigned int tabspaces = 8;
+unsigned int tabspaces = 4;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 
   /* 8 normal colors */
-  [0] = "#131b1b", /* black   */
-  [1] = "#1b2424", /* red     */
-  [2] = "#293636", /* green   */
-  [3] = "#3c4e4e", /* yellow  */
-  [4] = "#556c6c", /* blue    */
-  [5] = "#729191", /* magenta */
-  [6] = "#95bbbb", /* cyan    */
-  [7] = "#bcebeb", /* white   */
+  [0] = "#1d1f21", /* black   */
+  [1] = "#cc342b", /* red     */
+  [2] = "#198844", /* green   */
+  [3] = "#fba922", /* yellow  */
+  [4] = "#3971ed", /* blue    */
+  [5] = "#a36ac7", /* magenta */
+  [6] = "#3971ed", /* cyan    */
+  [7] = "#c5c8c6", /* white   */
 
   /* 8 bright colors */
-  [8]  = "#fd8588", /* black   */
-  [9]  = "#ef9de9", /* red     */
-  [10] = "#c7ad30", /* green   */
-  [11] = "#199594", /* yellow  */
-  [12] = "#4ba557", /* blue    */
-  [13] = "#98863d", /* magenta */
-  [14] = "#2aa942", /* cyan    */
-  [15] = "#fd9699", /* white   */
+  [8]  = "#969896", /* black   */
+  [9]  = "#cc342b", /* red     */
+  [10] = "#198844", /* green   */
+  [11] = "#fba922", /* yellow  */
+  [12] = "#3971ed", /* blue    */
+  [13] = "#a36ac7", /* magenta */
+  [14] = "#3971ed", /* cyan    */
+  [15] = "#ffffff", /* white   */
 
   /* special colors */
-  [256] = "#0b1111", /* background */
-  [257] = "#a7d1d1", /* foreground */
+  [256] = "#1d1f21", /* background */
+  [257] = "#c5c8c6", /* foreground */
 };
 
 /*
